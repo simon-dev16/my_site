@@ -1,0 +1,529 @@
+<!-- index.html -->
+<!DOCTYPE html>
+
+<html lang="ru">
+    <head>
+        <meta charset="utf-8" />
+        <meta content="width=device-width,initial-scale=1" name="viewport" />
+        <meta content="ru" http-equiv="Content-Language" />
+        <title>Семён Долгих — XR / UE5 разработчик</title>
+        <meta
+            content="XR / UE5 разработчик и 3D-дизайнер. Интерактивные real-time проекты, UE5 логика, 3D окружения, UI/UX."
+            name="description"
+        />
+        <link href="styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Header -->
+        <header class="site-header" role="banner">
+            <nav aria-label="Навигация" class="nav">
+                <a aria-label="Перейти к началу" class="brand" href="#main">
+                    <span aria-hidden="true" class="brand-mark">SD</span>
+                </a>
+                <div class="nav-links">
+                    <a class="nav-link" href="#main">Главная</a
+                    ><a class="nav-link" href="#projects">Проекты</a
+                    ><a class="nav-link" href="#about">Обо мне</a
+                    ><a class="nav-link nav-link--cta" href="#contacts"
+                        >Контакты</a
+                    >
+                </div>
+            </nav>
+        </header>
+        <main class="page" id="main" role="main">
+            <!-- Hero -->
+            <section aria-label="Главный экран" class="section hero">
+                <div class="container hero-grid">
+                    <div class="hero-copy">
+                        <p class="eyebrow">XR / UE5 · 3D · UI/UX</p>
+                        <h1 class="h1">Семён Долгих</h1>
+                        <p class="lead">
+                            Создаю интерактивные 3D/VR проекты на Unreal
+                            Engine 4/5.
+                        </p>
+                        <div class="hero-actions">
+                            <a class="btn btn-primary" href="#projects"
+                                >Смотреть проекты</a
+                            >
+                            <a class="btn btn-ghost" href="#contacts"
+                                >Связаться</a
+                            >
+                        </div>
+                        <dl class="meta">
+                            <div class="meta-item">
+                                <dt>Город</dt>
+                                <dd>Зеленоград, Москва</dd>
+                            </div>
+                            <div class="meta-item">
+                                <dt>Почта</dt>
+                                <dd>
+                                    <a href="mailto:semen12d@gmail.com"
+                                        >semen12d@gmail.com</a
+                                    >
+                                </dd>
+                            </div>
+                            <div class="meta-item">
+                                <dt>GitHub</dt>
+                                <dd>
+                                    <a
+                                        aria-label="Ссылка на GitHub"
+                                        href="https://github.com/simon-dev16"
+                                        >github.com/simon-dev16</a
+                                    >
+                                </dd>
+                            </div>
+                        </dl>
+                    </div>
+                    <div aria-label="Фото (плейсхолдер)" class="hero-media">
+                        <!-- Заменишь на своё фото -->
+                        <div
+                            aria-label="Плейсхолдер фото"
+                            class="ph ph-portrait ph-img"
+                            role="img"
+                            style="
+                                --img: url('assets/images/profile.png');
+                            "
+                        ></div>
+                    </div>
+                </div>
+            </section>
+            <!-- Projects -->
+            <section id="projects" class="section projects-section" aria-label="Проекты">
+            <div class="container">
+                <div class="section-head">
+                <h2 class="h2">Проекты</h2>
+                </div>
+
+                <div class="projects-grid">
+                <!-- 1) VR-Inclusion -->
+                <article class="project">
+                    <div class="project-media">
+                    <div class="project-img ph ph-img"
+                        role="img"
+                        aria-label="VR-Inclusion — превью"
+                        style="--img: url('assets/images/Project1.png');"></div>
+                    </div>
+
+                    <div class="project-body">
+                    <div class="project-top">
+                        <h3 class="project-title">VR-Inclusion</h3>
+                        <p class="project-role">Должность: Разработчик UE5</p>
+                    </div>
+
+                    <div class="project-tags" aria-label="Теги">
+                        <span class="tag">Unreal Engine 5</span>
+                        <span class="tag">XR</span>
+                        <span class="tag">VR</span>
+                        <span class="tag">C++</span>
+                        <span class="tag">Blueprints</span>
+                    </div>
+
+                    <div class="project-actions">
+                        <a class="btn btn-small btn-primary" href="#" target="_blank" rel="noopener noreferrer">Видео</a>
+                        <a class="btn btn-small btn-dark" href="https://github.com/VR-Inclusion" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    </div>
+                    </div>
+                </article>
+
+                <!-- 2) MIET GAME -->
+                <article class="project">
+                    <div class="project-media">
+                    <div class="project-img ph ph-img"
+                        role="img"
+                        aria-label="MIET GAME — превью"
+                        style="--img: url('assets/images/Project2.png');"></div>
+                    </div>
+
+                    <div class="project-body">
+                    <div class="project-top">
+                        <h3 class="project-title">MIET GAME</h3>
+                        <p class="project-desc">
+                        Виртуальная копия главного корпуса МИЭТ: обучающая мини-игра, где пользователь перемещается по локации и проходит интерактивные задания по направлению «Информационные системы и технологии».
+                        </p>
+                    </div>
+
+                    <div class="project-tags" aria-label="Теги">
+                        <span class="tag">Unreal Engine 5</span>
+                        <span class="tag">Blueprints</span>
+                        <span class="tag">UI</span>
+                    </div>
+
+                    <div class="project-actions">
+                        <a class="btn btn-small btn-primary" href="#" target="_blank" rel="noopener noreferrer">Видео</a>
+                        <a class="btn btn-small btn-dark" href="#" target="_blank" rel="noopener noreferrer">Google Disk</a>
+                    </div>
+                    </div>
+                </article>
+
+                <!-- 3) Makkah Simulator -->
+                <article class="project">
+                    <div class="project-media">
+                    <div class="project-img ph ph-img"
+                        role="img"
+                        aria-label="Makkah Simulator — превью"
+                        style="--img: url('assets/images/Project3.png');"></div>
+                    </div>
+
+                    <div class="project-body">
+                    <div class="project-top">
+                        <h3 class="project-title">Makkah Simulator</h3>
+                        <p class="project-desc">
+                        Коммерческий проект для Kwork: фотореалистичная локация мечети Аль-Харам в Мекке, собранная для real-time просмотра и прогулки по окружению.
+                        </p>
+                    </div>
+
+                    <div class="project-tags" aria-label="Теги">
+                        <span class="tag">Unreal Engine 5</span>
+                        <span class="tag">Level Design</span>
+                    </div>
+
+                    <div class="project-actions">
+                        <a class="btn btn-small btn-primary" href="#" target="_blank" rel="noopener noreferrer">Видео</a>
+                        <a class="btn btn-small btn-dark" href="#" target="_blank" rel="noopener noreferrer">Google Disk</a>
+                    </div>
+                    </div>
+                </article>
+
+                <!-- 4) House Planner -->
+                <article class="project">
+                    <div class="project-media">
+                    <div class="project-img ph ph-img"
+                        role="img"
+                        aria-label="House Planner — превью"
+                        style="--img: url('assets/images/Project4.png');"></div>
+                    </div>
+
+                    <div class="project-body">
+                    <div class="project-top">
+                        <h3 class="project-title">House Planner</h3>
+                        <p class="project-desc">
+                        Проект для Agro Jam 2025: веб-симулятор планирования участка с 2D-разметкой и 3D-визуализацией итогового плана.
+                        </p>
+                    </div>
+
+                    <div class="project-tags" aria-label="Теги">
+                        <span class="tag">Web</span>
+                        <span class="tag">2D → 3D</span>
+                        <span class="tag">Simulator</span>
+                    </div>
+
+                    <div class="project-actions">
+                        <a class="btn btn-small btn-primary" href="#" target="_blank" rel="noopener noreferrer">Видео</a>
+                        <a class="btn btn-small btn-dark" href="https://simon-dev16.github.io/house-planner/" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    </div>
+                    </div>
+                </article>
+                </div>
+            </div>
+            </section>
+
+            <!-- What I Do -->
+            <section aria-label="Что я делаю" class="section">
+                <div class="container">
+                    <div class="section-head">
+                        <h2 class="h2">Что я делаю</h2>
+                    </div>
+                    <div class="cards">
+                        <article class="card">
+                            <h3 class="h3">XR / VR</h3>
+                            <p class="p">
+                                Создаю VR/XR-сцены и сценарии: взаимодействия, навигация, комфорт пользователя.
+                            </p>
+                        </article>
+                        <article class="card">
+                            <h3 class="h3">Интерактив в UE5</h3>
+                            <p class="p">
+                                Собираю игровую логику и системы на Blueprints: состояния, триггеры, фидбек, UI.
+                            </p>
+                        </article>
+                        <article class="card">
+                            <h3 class="h3">3D-окружения и ассеты</h3>
+                            <p class="p">
+                                Модульные ассеты, материалы, свет, композиция. Оптимизация под real-time.
+                            </p>
+                        </article>
+                        <article class="card">
+                            <h3 class="h3">UI/UX для 3D-систем</h3>
+                            <p class="p">
+                                Делаю понятные интерфейсы для 3D-проектов: меню, HUD, структура экранов.
+                            </p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <!-- Skills -->
+            <section aria-label="Навыки" class="section">
+                <div class="container">
+                    <div class="section-head">
+                        <h2 class="h2">Навыки</h2>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="panel">
+                            <h3 class="h3">Ключевые навыки</h3>
+                            <ul class="list">
+                                <li>
+                                    Проектирование интерактивных систем
+                                    (real-time)
+                                </li>
+                                <li>
+                                    XR / VR: логика, UX и удобство пользователя
+                                </li>
+                                <li>Сборка уровней и композиция сцены</li>
+                                <li>
+                                    Оптимизация: производительность и визуальная
+                                    ясность
+                                </li>
+                                <li>Быстрые прототипы и итерации</li>
+                            </ul>
+                        </div>
+                        <div class="panel">
+                            <h3 class="h3">Инструменты</h3>
+                            <ul class="list list-cols">
+                                <li>Unreal Engine 5</li>
+                                <li>Blender</li>
+                                <li>Figma</li>
+                                <li>Photoshop</li>
+                                <li>Illustrator</li>
+                                <li>After Effects</li>
+                                <li>Visual Studio / C++</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- About -->
+            <section aria-label="Обо мне" class="section" id="about">
+                <div class="container">
+                    <div class="section-head">
+                        <h2 class="h2">Обо мне</h2>
+                    </div>
+                    <div class="about-grid">
+                        <div class="about-media">
+                            <div
+                                aria-label="Плейсхолдер изображения"
+                                class="ph ph-square ph-img"
+                                role="img"
+                                style="
+                                    --img: url('assets/images/about.png');
+                                "
+                            ></div>
+                        </div>
+                        <div class="about-copy">
+                            <p class="p">
+                                Совмещаю разработку в UE5, 3D-производство и
+                                UI/UX, чтобы собирать интерактивные проекты,
+                                которые ощущаются понятными, быстрыми и
+                                «готовыми к релизу». Комфортно двигаюсь от идеи
+                                и структуры интерфейса до сборки сцены и
+                                внедрения логики.
+                            </p>
+                            <div class="about-actions">
+                                <a
+                                    aria-label="Скачать резюме (PDF)"
+                                    class="btn btn-primary"
+                                    download=""
+                                    href="assets/files/semion-dolgikh-cv.pdf"
+                                    >Скачать резюме</a
+                                >
+                                <a class="btn btn-ghost" href="#contacts"
+                                    >Контакты</a
+                                >
+                            </div>
+                            <div class="mini">
+                                <div class="mini-item">
+                                    <span class="mini-k">Фокус</span>
+                                    <span class="mini-v"
+                                        >XR · UE5 · Интерактив · UI/UX</span
+                                    >
+                                </div>
+                                <div class="mini-item">
+                                    <span class="mini-k">Образование</span>
+                                    <span class="mini-v"
+                                        >МИЭТ — Информационные технологии в
+                                        дизайне</span
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Experience -->
+            <section aria-label="Опыт" class="section" id="experience">
+                <div class="container">
+                    <div class="section-head">
+                        <h2 class="h2">Опыт</h2>
+                    </div>
+                    <div class="timeline">
+                        <article class="tl-item">
+                            <div aria-hidden="true" class="tl-dot"></div>
+                            <div class="tl-content">
+                                <div class="tl-top">
+                                    <h3 class="h3">VR Inclusion</h3>
+                                    <p class="tl-meta">
+                                        XR / UE5 · 2025 — н.в. · Москва
+                                    </p>
+                                </div>
+                                <ul class="list">
+                                    <li>
+                                        Разработка VR-сценариев и интерактивной
+                                        логики в UE5 для прикладных задач.
+                                    </li>
+                                    <li>
+                                        Проработка UX-паттернов под контроллеры
+                                        и комфорт пользователя.
+                                    </li>
+                                </ul>
+                            </div>
+                        </article>
+                        <article class="tl-item">
+                            <div aria-hidden="true" class="tl-dot"></div>
+                            <div class="tl-content">
+                                <div class="tl-top">
+                                    <h3 class="h3">ООО «Автограмма»</h3>
+                                    <p class="tl-meta">
+                                        UI/UX &amp; 3D · 2024 — 2025 · Москва
+                                    </p>
+                                </div>
+                                <ul class="list">
+                                    <li>
+                                        Перевод требований в читаемые интерфейсы
+                                        (HMI-логика) и визуальные материалы.
+                                    </li>
+                                    <li>
+                                        Графика и 3D-модели для демонстраций,
+                                        презентаций и внутренних прототипов.
+                                    </li>
+                                </ul>
+                            </div>
+                        </article>
+                        <article class="tl-item">
+                            <div aria-hidden="true" class="tl-dot"></div>
+                            <div class="tl-content">
+                                <div class="tl-top">
+                                    <h3 class="h3">Фриланс (Kwork)</h3>
+                                    <p class="tl-meta">
+                                        3D / интерактив · 2023 — 2025 · Удалённо
+                                    </p>
+                                </div>
+                                <ul class="list">
+                                    <li>
+                                        Сдача проектов «под ключ»: 3D-ассеты,
+                                        сцены, интерактив и прототипы механик.
+                                    </li>
+                                </ul>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <!-- Contacts -->
+            <section aria-label="Контакты" class="section" id="contacts">
+                <div class="container">
+                    <div class="section-head">
+                        <h2 class="h2">Контакты</h2>
+                    </div>
+                    <div class="contacts-grid">
+                        <div class="panel panel--stretch">
+                            <h3 class="h3">Связаться</h3>
+                            <div class="contacts-list">
+                                <a
+                                    class="contact-row"
+                                    href="mailto:semen12d@gmail.com"
+                                >
+                                    <span class="contact-k">Почта</span>
+                                    <span class="contact-v"
+                                        >semen12d@gmail.com</span
+                                    >
+                                </a>
+                                <a class="contact-row" href="tel:+79623081043">
+                                    <span class="contact-k">Телефон</span>
+                                    <span class="contact-v"
+                                        >+7 (962) 308-10-43</span
+                                    >
+                                </a>
+                                <a
+                                    class="contact-row"
+                                    href="https://github.com/simon-dev16"
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+                                >
+                                    <span class="contact-k">GitHub</span>
+                                    <span class="contact-v"
+                                        >github.com/simon-dev16</span
+                                    >
+                                </a>
+                                <a
+                                    class="contact-row"
+                                    href="https://t.me/Bubble1215"
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+                                >
+                                    <span class="contact-k">Telegram</span>
+                                    <span class="contact-v">@Bubble1215</span>
+                                </a>
+                                <div class="contact-row contact-row--plain">
+                                    <span class="contact-k">Город</span>
+                                    <span class="contact-v"
+                                        >Зеленоград, Москва</span
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel--stretch panel--visual">
+                            <h3 class="h3">Пример работы</h3>
+                            <!-- укороченный плейсхолдер, чтобы высоты совпали -->
+                            <div
+                                aria-label="Плейсхолдер визуала"
+                                class="ph ph-visual ph-img"
+                                role="img"
+                                style="
+                                    --img: url('assets/images/visual.png');
+                                "
+                            ></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Footer -->
+            <footer class="site-footer" role="contentinfo">
+                <div class="container footer-grid">
+                    <div class="footer-left">
+                        <div class="footer-brand">
+                            <span
+                                aria-hidden="true"
+                                class="brand-mark brand-mark--small"
+                                >SD</span
+                            >
+                            <div>
+                                <p class="footer-title">Семён Долгих</p>
+                                <p class="footer-sub">XR / UE5 · 3D · UI/UX</p>
+                            </div>
+                        </div>
+                        <p class="footer-note">
+                            © <span id="y"></span> Все права защищены.
+                        </p>
+                    </div>
+                    <div class="footer-links">
+                        <a href="#main">Главная</a
+                        ><a href="#projects">Проекты</a
+                        ><a href="#about">Обо мне</a
+                        ><a href="#contacts">Контакты</a>
+                    </div>
+                    <div class="footer-right">
+                        <a
+                            class="footer-strong"
+                            href="mailto:semen12d@gmail.com"
+                            >semen12d@gmail.com</a
+                        >
+                        <p class="footer-sub">Зеленоград, Москва</p>
+                    </div>
+                </div>
+                <script>
+                    document.getElementById("y").textContent =
+                        new Date().getFullYear();
+                </script>
+            </footer>
+        </main>
+    </body>
+</html>

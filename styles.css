@@ -328,7 +328,6 @@ li{ margin: 10px 0; color: var(--muted); }
   border-radius: var(--radius2);
   border: 1px solid var(--line);
 
-  /* Если задана переменная --img (через style="--img:url('...')"), картинка станет первым слоем */
   background-image:
     var(--img, none),
     linear-gradient(135deg, rgba(255,255,255,.06), rgba(255,255,255,.02)),
@@ -358,8 +357,7 @@ li{ margin: 10px 0; color: var(--muted); }
 .ph-tall{ width:100%; aspect-ratio: 4 / 5; border-radius: var(--radius); }
 
 /* =========================
-   Projects (NEW)
-   Заменяет старый вид карточек
+   Projects 
    ========================= */
 
 .projects-section .section-head{
@@ -441,11 +439,6 @@ li{ margin: 10px 0; color: var(--muted); }
   flex-wrap: wrap;
   margin-top: 2px;
 }
-
-/* Старый Projects (оставляю, но он больше не используется новым HTML)
-.projects{ ... }
-.project-card{ ... }
-... */
 
 /* Tags (общие) */
 .tags{
